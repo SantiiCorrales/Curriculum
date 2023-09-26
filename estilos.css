@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+body {
+    background-color: black;
+    font-family: 'Coming Soon', cursive;;
+}
+h1 {
+    color: aqua; 
+    text-align: center;
+
+}
+.facebook {
+    color:blue
+}
+.instagram {
+    color: blueviolet;
+}
