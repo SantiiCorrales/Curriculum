@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+nav {
+  display: flex;
+  background-color: #111111;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 60px;
+  padding: 5px 50px;
+  border: 1px solid white;
+}
+.link-secciones {
+gap: 12px;
+text-decoration: none;
+
+}
