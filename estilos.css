@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap');
+
 body {
   background-color: black;
 }
+
+a{
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   background-color: #111111;
@@ -11,7 +18,15 @@ nav {
   border: 1px solid white;
 }
 .link-secciones {
-gap: 12px;
-text-decoration: none;
-
+  display: flex;
+  gap: 60px;
 }
+
+.link-secciones a {
+  color: #fff;
+  font-family: 'Shadows Into Light', cursive;
+}
+.img-logo{
+  margin-right: 5%;
+}
+
