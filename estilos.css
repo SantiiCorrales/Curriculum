@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap");
-@import url('https://fonts.cdnfonts.com/css/brigends-expanded');
+@import url("https://fonts.cdnfonts.com/css/brigends-expanded");
 * {
   margin: 0px;
   padding: 0px;
@@ -20,14 +20,18 @@ nav {
 }
 .link-secciones {
   display: flex;
-  gap: 60px;
+  gap: 30px;
 }
 .link-secciones a {
   color: #fff;
   font-family: "Shadows Into Light", cursive;
 }
 .img-logo {
-  margin-right: 5%;
+  margin-right: 15%;
+}
+ul {
+  display: flex;
+  gap: 30px;
 }
 .contenedor-inicio {
   background-image: url("./images/FondoBosque.jpeg");
@@ -41,9 +45,48 @@ nav {
   height: 100%;
   flex-direction: column;
   font-size: 30px;
-  font-family:'Brigends Expanded', sans-serif;
+  font-family: "Brigends Expanded", sans-serif;
 }
 .texto-inicio span {
   font-size: 20px;
   margin-top: 10px;
+  color: grey;
+}
+.texto-inicio h1 {
+  background: linear-gradient(90deg,#680dda 0%, #78d3fd 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.down-arrow {
+  position: absolute;
+  width: 0;
+  height: 30px;
+  bottom: 20px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 9s infinite;
+}
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
