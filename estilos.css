@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap");
-*{
+@import url('https://fonts.cdnfonts.com/css/brigends-expanded');
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -15,9 +16,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 30%;
   padding: 5px 50px;
-  border-bottom: 1px solid white;
 }
 .link-secciones {
   display: flex;
@@ -31,7 +30,20 @@ nav {
   margin-right: 5%;
 }
 .contenedor-inicio {
-background-image: url("./images/FondoBosque.jpeg");
-height: 600px;
-
+  background-image: url("./images/FondoBosque.jpeg");
+  height: 600px;
+}
+.texto-inicio {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  font-size: 30px;
+  font-family:'Brigends Expanded', sans-serif;
+}
+.texto-inicio span {
+  font-size: 20px;
+  margin-top: 10px;
 }
