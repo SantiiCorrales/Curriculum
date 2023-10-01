@@ -1,32 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap");
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body {
   background-color: black;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 nav {
   display: flex;
-  background-color: #111111;
   align-items: center;
   justify-content: space-between;
-  border-radius: 60px;
+  border-radius: 30%;
   padding: 5px 50px;
-  border: 1px solid white;
+  border-bottom: 1px solid white;
 }
 .link-secciones {
   display: flex;
   gap: 60px;
 }
-
 .link-secciones a {
   color: #fff;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
-.img-logo{
+.img-logo {
   margin-right: 5%;
 }
+.contenedor-inicio {
+background-image: url("./images/FondoBosque.jpeg");
+height: 600px;
 
+}
