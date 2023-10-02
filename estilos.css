@@ -27,7 +27,8 @@ nav {
   font-family: "Shadows Into Light", cursive;
 }
 .img-logo {
-  margin-right: 15%;
+  position: relative;
+  margin-right: 86px;
 }
 ul {
   display: flex;
