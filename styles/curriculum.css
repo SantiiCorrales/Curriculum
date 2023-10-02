@@ -1,0 +1,139 @@
+:root {
+  --color-principal: #7c2bee;
+  --color-secundario: #6de3fc;
+}
+
+
+body {
+  background-color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Estilos para la barra de navegacion */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+
+.link-secciones {
+  display: flex;
+  gap: 30px;
+}
+
+.link-secciones a {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.img-logo {
+  position: relative;
+  margin-right: 86px;
+}
+
+.links-social {
+  display: flex;
+  gap: 30px;
+}
+
+/* Fin de los estilos para la barra de navegacion */
+
+section {
+  margin-top: 4rem;
+}
+
+.curriculum {
+  margin: auto;
+  width: 500px;
+  height: auto;
+  border-width: 0;
+  border-left: 10px solid;
+  border-image: linear-gradient(var(--color-principal), #000) 0 100%;
+}
+
+.curriculum_contenido {
+  color: #fff;
+  padding: 2rem;
+}
+
+.curriculum_punto {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% / 50%;
+  background: #b3edff;
+  left: -3.4rem;
+  top: 70px;
+  transform: translate(50%, -50%);
+}
+
+.curriculum_punto img{
+  border-radius: 99px;
+}
+
+.curriculum_texto .fecha {
+  font-style: italic;
+  font-weight: 800;
+
+}
+
+.curriculum_etiquetas {
+  display: flex;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+  gap: 30px;
+}
+
+.curriculum_etiquetas li {
+  background-color: #8868b6;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.curriculum_btn-descargar {
+  align-items: center;
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .2s;
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.curriculum_btn-descargar span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+
+  &:hover {
+    background: none;
+  }
+
+}

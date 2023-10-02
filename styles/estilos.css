@@ -11,7 +11,7 @@ body {
 a {
   text-decoration: none;
 }
-
+/* Estilos para la barra de navegacion */
 nav {
   display: flex;
   align-items: center;
@@ -34,6 +34,7 @@ ul {
   display: flex;
   gap: 30px;
 }
+/* Fin de los estilos de la barra de navegacion */
 .contenedor-inicio {
   height: 100vh;
 }
