@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.cdnfonts.com/css/brigends-expanded");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+/* Estilos para la barra de navegacion */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+.link-secciones {
+  display: flex;
+  gap: 30px;
+}
+.link-secciones a {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+}
+.img-logo {
+  position: relative;
+  margin-right: 86px;
+}
+ul {
+  display: flex;
+  gap: 30px;
+}
 :root {
   --color-principal: #7c2bee;
   --color-secundario: #6de3fc;
