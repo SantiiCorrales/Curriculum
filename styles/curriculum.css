@@ -41,8 +41,10 @@ nav {
 
 /* Fin de los estilos para la barra de navegacion */
 
-section {
+.contenedor-curriculums {
   margin-top: 4rem;
+  display: flex;
+  height: 70vh;
 }
 
 .curriculum {
@@ -60,18 +62,20 @@ section {
 }
 
 .curriculum_punto {
-  display: block;
+  display: flex;
   position: relative;
   width: 50px;
   height: 50px;
   border-radius: 50% / 50%;
-  background: #b3edff;
+  background: #000;
+  border: 1px solid white;
   left: -3.4rem;
   top: 70px;
   transform: translate(50%, -50%);
 }
 
 .curriculum_punto img{
+  margin: auto;
   border-radius: 99px;
 }
 
@@ -90,9 +94,9 @@ section {
 }
 
 .curriculum_etiquetas li {
-  background-color: #8868b6;
+  background-color: #cb82ff;
   padding: 0.5rem;
-  border-radius: 6px;
+  border-radius: 7px;
 }
 
 .curriculum_btn-descargar {
@@ -151,15 +155,50 @@ section {
   font-size: 18px;
   border: none;
   border-radius: 20px 20px 0 0;
-  background-color: #3498db;
+  background-color: #000;
+  border: 1px solid white;
+  color: white;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.collapsible.medio {
+  cursor: pointer;
+  padding: 16px;
+  margin: 10px 0;
+  width: 600px;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 0px !important; 
+  background-color: #000;
+  border: 1px solid white;
+  color: white;
+  transition: background 0.3s;
+  position: relative;
+}
+
+.collapsible.final {
+  cursor: pointer;
+  padding: 16px;
+  width: 600px;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #000;
+  border: 1px solid white;
   color: white;
   transition: background-color 0.3s;
   position: relative;
 }
 
 .collapsible:hover {
-  background-color: #2980b9;
-}
+    transition: background 0.3s;
+    background: linear-gradient(45deg, #00ddeb, #af40ff);
+  }
 
 .content {
   width: auto;
