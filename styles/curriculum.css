@@ -3,7 +3,6 @@
   --color-secundario: #6de3fc;
 }
 
-
 body {
   background-color: #000;
 }
@@ -135,5 +134,53 @@ section {
   &:hover {
     background: none;
   }
+} 
 
+.collapsible-container {
+  width: 600px;
+  max-width: auto;
+  margin: auto;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 16px;
+  width: 600px;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  background-color: #3498db;
+  color: white;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.collapsible:hover {
+  background-color: #2980b9;
+}
+
+.content {
+  width: auto;
+  margin-left: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.active {
+  max-height: 700px
+}
+
+.arrow {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s;
+}
+
+span.arrow.active  {
+  transform: translateY(-50%) rotate(180deg) !important;
 }
