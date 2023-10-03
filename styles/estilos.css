@@ -11,7 +11,7 @@ body {
 a {
   text-decoration: none;
 }
-
+/* Estilos para la barra de navegacion */
 nav {
   display: flex;
   align-items: center;
@@ -27,12 +27,14 @@ nav {
   font-family: "Shadows Into Light", cursive;
 }
 .img-logo {
-  margin-right: 15%;
+  position: relative;
+  margin-right: 86px;
 }
 ul {
   display: flex;
   gap: 30px;
 }
+/* Fin de los estilos de la barra de navegacion */
 .contenedor-inicio {
   height: 100vh;
 }
