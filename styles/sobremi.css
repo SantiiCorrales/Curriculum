@@ -35,7 +35,31 @@ ul {
   gap: 30px;
 }
 .descripcion {
+  padding: 0 9rem;
   color: #fff;
+  margin-top: 4rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  text-align: justify;
+}
+
+.descripcion h1{
+  background: linear-gradient(30deg, #680dda 0%, #78d3fd 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.descripcion video{
+  position: relative;
+  top: 60px;
+  border-radius: 10px;
+  box-shadow: rgb(117 0 255 / 20%) 0 51px 93px 22px;
 }
