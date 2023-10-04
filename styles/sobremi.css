@@ -34,3 +34,7 @@ ul {
   display: flex;
   gap: 30px;
 }
+.descripcion {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+}
